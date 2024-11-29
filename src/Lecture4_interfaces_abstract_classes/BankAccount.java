@@ -13,4 +13,10 @@ public class BankAccount {
     public void setBalance(double balance) {
         this.balance = balance;
     }
+    public void deposit(double amount){
+        balance += amount;
+    }
+    public void withdraw(double amount){
+        balance -= amount;
+    }
 }
